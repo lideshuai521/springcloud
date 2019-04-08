@@ -1,14 +1,19 @@
 server:
   port: 8763
+
 spring:
   application:
     name: eurekaclient
-
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+  zipkin:
+    base-url: http://localhost:9411
+    sleuth:
+      sampler:
+        percentage: 1.0
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
 
 
 management:
@@ -16,6 +21,8 @@ management:
     web:
       exposure:
         include: refresh,health,info
+
+
 
 
 
