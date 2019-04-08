@@ -11,7 +11,7 @@ spring:
       server:
         git:
           uri: https://github.com/lideshuai521/springcloud.git #配置git仓库地址
-          searchPaths: springcloud-config/config #配置仓库路径
+          searchPaths: springcloud-config #配置仓库路径
           username: lideshuai521 #访问git仓库的用户名
           password: qq544372530 #访问git仓库的用户密码
       label: master #配置仓库的分支
