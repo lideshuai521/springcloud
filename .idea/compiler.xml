@@ -11,6 +11,8 @@
         <module name="springbootprovider" />
         <module name="springcloudconfig" />
         <module name="springcloudfeign" />
+        <module name="springcloudredislock" />
+        <module name="zipkin" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +23,8 @@
       <module name="springbootprovider" options="-parameters" />
       <module name="springcloudconfig" options="-parameters" />
       <module name="springcloudfeign" options="-parameters" />
+      <module name="springcloudredislock" options="-parameters" />
+      <module name="zipkin" options="-parameters" />
     </option>
   </component>
 </project>

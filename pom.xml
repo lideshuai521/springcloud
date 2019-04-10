@@ -13,6 +13,8 @@
         <module>gateway</module>
         <module>springcloud-feign</module>
         <module>springcloud-config</module>
+        <module>zipkin</module>
+        <module>springcloud-redislock</module>
     </modules>
 
     <packaging>pom</packaging>

@@ -7,5 +7,7 @@
     <file url="file://$PROJECT_DIR$/springbootprovider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-redislock" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin" charset="UTF-8" />
   </component>
 </project>
